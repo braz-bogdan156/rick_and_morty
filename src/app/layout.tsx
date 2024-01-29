@@ -12,9 +12,13 @@ export const metadata: Metadata = {
 
 const Layout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
+    <html lang="en">
+      <body>
     <RootLayout>
       {children}
     </RootLayout>
+    </body>
+    </html>
   );
 };
 
