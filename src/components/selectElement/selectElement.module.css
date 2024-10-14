@@ -1,0 +1,36 @@
+.select{    
+    width: 240px;   
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #00000080;
+    color: var(--text-akcent); 
+    outline-color:var(--text-akcent) ;   
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    appearance: none; 
+    overflow: hidden;
+    background: url('/arrow-drop-down.svg') no-repeat right; 
+}
+
+.select:hover,.select:focus{
+    box-shadow: 0 1px 5px 0 #0003; 
+}
+
+
+
+@media  (width >=768px) and (width <=1279px) {
+    .select{ 
+        width: 312px;        
+    }   
+}
+
+@media  (width >=1280px){
+    .select{ 
+        width: 312px;        
+    }
+}
