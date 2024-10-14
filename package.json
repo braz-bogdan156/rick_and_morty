@@ -2,7 +2,7 @@
   "name": "rick",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vlasova1983.github.io/Rick",
+  "homepage": "https://braz-bogdan156.github.io/Rick",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
